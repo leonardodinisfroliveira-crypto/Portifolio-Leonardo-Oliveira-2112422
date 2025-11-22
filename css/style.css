@@ -1,7 +1,7 @@
 :root{
   --bg:#0c0c0c; --text:#00f7ff; --muted:#fd5d5d;
   --primary:#003af9; --primary-700:#fd0000;
-  --card:#f6f7fb; --border:#e6e7ef;
+  --card:#000000; --border:#003af9;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -21,7 +21,7 @@
 *{ box-sizing:border-box }
 html,body{ margin:0; padding:0 }
 body{
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family:"Pixel Operator Mono 8", Segoe UI, Roboto, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -96,3 +96,11 @@ input, textarea{
   background:var(--bg); color:var(--text);
 }
 input:focus, textarea:focus{ border-color: var(--primary) }
+#images {
+    margin:250px;
+    padding:250px;
+}
+video {
+  width: 500px;
+  height: 400px;
+}

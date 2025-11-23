@@ -4,55 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="My portfolio website" />
-  <title>Portfolio ·contact</title>
+  <title>Portfolio · Contact</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
  <input type="checkbox" id="nav-toggle" hidden>
-<header class="site-header container">
-    <label for="nav-toggle" class="burger" aria-label="Open menu">☰</label> <a class="logo" href="index.html" aria-label="Homepage">Leoberman</a>
- 
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<header class="site-header container">
+    <label for="nav-toggle" class="burger" aria-label="Open menu">☰</label>
+    <a class="logo" href="index.html" aria-label="Homepage">Leoberman</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 </header>
+
 <main class="container">
-    <section class="hero">
+<section class="hero">
   <h1>Hello, I'm <span class="accent">Leonardo Oliveira</span></h1>
   <p>game developer Leoberman focused on unity html ,css,javascript and c# and pixel art 2d and 2.5d.</p>
   <p><a class="button" href="projects.html">View Projects</a></p>
 </section>
-  <!-- page-specific content will go here -->
-   <h1>Contact</h1>
-<form class="contact-form" aria-label="Contact form">
+
+<h1>Contact</h1>
+
+<form action="mailto:leonardodinisfroliveira@gmail.com" method="GET" enctype="text/plain">
   <div class="field">
     <label for="name">Name</label>
     <input id="name" name="name" type="text" required>
   </div>
+
   <div class="field">
     <label for="email">Email</label>
     <input id="email" name="email" type="email" required>
   </div>
+
   <div class="field">
     <label for="message">Message</label>
     <textarea id="message" name="message" rows="5" required></textarea>
   </div>
-  <button class="button" type="submit">Send (demo)</button>
+
+  <button class="button" type="submit">Send</button>
 </form>
+
 <h2>Location</h2>
 <iframe
   title="Map - example"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-9.2%2C32.6%2C-16.9%2C39.7&layer=mapnik"
   width="100%" height="300" style="border:0"></iframe>
+
 </main>
+
 <footer class="site-footer container">
   <p>Contact me </p>
-<p>+351 927 604 952 </p>
-<p>leonardodinisfroliveira@gmail.com
-  </p>
+  <p>+351 927 604 952</p>
+  <p>leonardodinisfroliveira@gmail.com</p>
 </footer>
+
 </body>
 </html>
